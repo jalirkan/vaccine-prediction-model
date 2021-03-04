@@ -16,17 +16,16 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Your Value Proposition
+            ## Stop the Spread
 
-            Emphasize how the app will benefit users. Don't emphasize the underlying technology.
-
-            ✅ RUN is a running app that adapts to your fitness levels and designs personalized workouts to help you improve your running.
-
-            ❌ RUN is the only intelligent running app that uses sophisticated deep neural net machine learning to make your run smarter because we believe in ML driven workouts.
+            When there is limited medicine against a problem that affects all of us, every resource counts. Using data, 
+            it's possible to estimate who needs vaccines and who's already taken one. By cutting costs to time and money, 
+            medicine can reach more people that need it in less time and save lives. Today, we'll look at a predictor for
+            this very kind of problem.
 
             """
         ),
-        dcc.Link(dbc.Button('Your Call To Action', color='primary'), href='/predictions')
+        dcc.Link(dbc.Button("Stop the Spread", color='primary'), href='/predictions')
     ],
     md=4,
 )
